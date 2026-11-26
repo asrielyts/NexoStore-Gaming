@@ -1,0 +1,18 @@
+NEXOSTORE GAMING - PROYECTO CON FRONTEND/BACKEND CONECTADOS
+
+Este paquete incluye el backend Spring Boot compatible con la aplicación React y el módulo src/data/database.js que faltaba.
+
+Pasos:
+1. Extrae el ZIP en una carpeta nueva.
+2. En la raíz del proyecto ejecuta: npm install
+3. Inicia el backend desde backend con IntelliJ (Spring Boot / spring-boot:run).
+4. En la raíz ejecuta: npm run dev
+5. Abre http://localhost:5173
+
+API local predeterminada: http://localhost:8080
+El módulo usa cookies de sesión HttpOnly; no guarda JWT en localStorage.
+Credenciales demo definidas por el backend:
+- admin@nexostore.cl / Admin123!
+- cliente@nexostore.cl / Cliente123!
+
+La base H2 se guarda en backend/data. No borres esa carpeta si quieres conservar los datos.

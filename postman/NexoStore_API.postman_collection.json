@@ -1,0 +1,99 @@
+{
+  "info": {
+    "name": "NexoStore Gaming API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:8080"
+    },
+    {
+      "key": "token",
+      "value": ""
+    },
+    {
+      "key": "productId",
+      "value": "P101"
+    }
+  ],
+  "item": [
+    {
+      "name": "Health",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/api/health"
+      }
+    },
+    {
+      "name": "Login administrador",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "const body=pm.response.json(); if(body.token) pm.collectionVariables.set('token',body.token);"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"email\":\"admin@nexostore.cl\",\"password\":\"Admin123!\"}"
+        },
+        "url": "{{baseUrl}}/api/auth/login"
+      }
+    },
+    {
+      "name": "Listar productos",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/api/products"
+      }
+    },
+    {
+      "name": "Crear producto (ADMIN)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Authorization",
+            "value": "Bearer {{token}}"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"name\":\"Producto prueba\",\"categoryId\":\"accesorios\",\"price\":15990,\"oldPrice\":0,\"stock\":5,\"description\":\"Prueba API\",\"art\":\"controller\",\"color\":\"#a7fc7a\"}"
+        },
+        "url": "{{baseUrl}}/api/products"
+      }
+    },
+    {
+      "name": "Listar categorías",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/api/categories"
+      }
+    },
+    {
+      "name": "Estado de tienda",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/api/state"
+      }
+    }
+  ]
+}

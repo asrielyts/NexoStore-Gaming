@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="420" viewBox="0 0 600 420">
+    <defs>
+        <linearGradient id="glow" x1="0" x2="1">
+            <stop stop-color="#fa88c8"/>
+            <stop offset="1" stop-color="#bbc9ff"/>
+        </linearGradient>
+        <radialGradient id="bg">
+            <stop stop-color="#fa88c8" stop-opacity=".3"/>
+            <stop offset="1" stop-color="#fa88c8" stop-opacity="0"/>
+        </radialGradient>
+        <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%">
+            <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#01020b" flood-opacity=".65"/>
+        </filter>
+    </defs>
+    <circle cx="300" cy="215" r="170" fill="url(#bg)"/>
+    <ellipse cx="300" cy="355" rx="195" ry="23" fill="#050916" opacity=".35"/>
+    <g filter="url(#shadow)">
+        <g transform="translate(83 95) rotate(-7 215 110)">
+            <path d="M115 25c-63 0-87 48-107 130-17 75 25 127 79 114l76-53h132l76 53c54 13 96-39 79-114-20-82-44-130-107-130z"
+                  fill="#dde7fb" stroke="#555d8a" stroke-width="13"/>
+            <path d="M95 118h90m-45-45v90" stroke="#394866" stroke-width="21" stroke-linecap="round"/>
+            <circle cx="323" cy="91" r="16" fill="#986dff"/>
+            <circle cx="368" cy="126" r="16" fill="#a7fc7a"/>
+            <circle cx="322" cy="160" r="16" fill="#fd7aa7"/>
+            <circle cx="275" cy="125" r="16" fill="#60cfff"/>
+            <circle cx="226" cy="163" r="22" fill="#4d5a83"/>
+        </g>
+    </g>
+    <g fill="none" stroke="#fa88c8" opacity=".35">
+        <circle cx="300" cy="207" r="160" stroke-width="1" stroke-dasharray="4 13"/>
+        <path d="M80 315l55-30M450 70l65 33" stroke-width="2"/>
+    </g>
+</svg>

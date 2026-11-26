@@ -1,0 +1,15 @@
+C:\Users\asrie\Desktop\NexoStore-Gaming_Corregido\backend\src\main\java\cl\nexostore\api\admin\AdminController.java
+C:\Users\asrie\Desktop\NexoStore-Gaming_Corregido\backend\src\main\java\cl\nexostore\api\auth\AuthController.java
+C:\Users\asrie\Desktop\NexoStore-Gaming_Corregido\backend\src\main\java\cl\nexostore\api\config\DataInitializer.java
+C:\Users\asrie\Desktop\NexoStore-Gaming_Corregido\backend\src\main\java\cl\nexostore\api\config\OpenApiConfig.java
+C:\Users\asrie\Desktop\NexoStore-Gaming_Corregido\backend\src\main\java\cl\nexostore\api\NexoStoreApplication.java
+C:\Users\asrie\Desktop\NexoStore-Gaming_Corregido\backend\src\main\java\cl\nexostore\api\security\JwtFilter.java
+C:\Users\asrie\Desktop\NexoStore-Gaming_Corregido\backend\src\main\java\cl\nexostore\api\security\JwtService.java
+C:\Users\asrie\Desktop\NexoStore-Gaming_Corregido\backend\src\main\java\cl\nexostore\api\security\SecurityConfig.java
+C:\Users\asrie\Desktop\NexoStore-Gaming_Corregido\backend\src\main\java\cl\nexostore\api\state\CatalogController.java
+C:\Users\asrie\Desktop\NexoStore-Gaming_Corregido\backend\src\main\java\cl\nexostore\api\state\StateController.java
+C:\Users\asrie\Desktop\NexoStore-Gaming_Corregido\backend\src\main\java\cl\nexostore\api\state\StoreDataService.java
+C:\Users\asrie\Desktop\NexoStore-Gaming_Corregido\backend\src\main\java\cl\nexostore\api\state\StoreSnapshot.java
+C:\Users\asrie\Desktop\NexoStore-Gaming_Corregido\backend\src\main\java\cl\nexostore\api\state\StoreSnapshotRepository.java
+C:\Users\asrie\Desktop\NexoStore-Gaming_Corregido\backend\src\main\java\cl\nexostore\api\user\StoreUser.java
+C:\Users\asrie\Desktop\NexoStore-Gaming_Corregido\backend\src\main\java\cl\nexostore\api\user\StoreUserRepository.java

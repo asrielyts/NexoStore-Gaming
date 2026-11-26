@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="420" viewBox="0 0 600 420">
+    <defs>
+        <linearGradient id="glow" x1="0" x2="1">
+            <stop stop-color="#a4f38d"/>
+            <stop offset="1" stop-color="#bbc9ff"/>
+        </linearGradient>
+        <radialGradient id="bg">
+            <stop stop-color="#a4f38d" stop-opacity=".3"/>
+            <stop offset="1" stop-color="#a4f38d" stop-opacity="0"/>
+        </radialGradient>
+        <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%">
+            <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#01020b" flood-opacity=".65"/>
+        </filter>
+    </defs>
+    <circle cx="300" cy="215" r="170" fill="url(#bg)"/>
+    <ellipse cx="300" cy="355" rx="195" ry="23" fill="#050916" opacity=".35"/>
+    <g filter="url(#shadow)">
+        <g transform="translate(160 60) rotate(-17 150 140)">
+            <path d="M155 20C65 20 30 80 30 190v67c0 98 65 135 124 135 66 0 132-44 132-130v-77C286 77 235 20 155 20Z"
+                  fill="#e6ebff" stroke="#515c82" stroke-width="12"/>
+            <path d="M154 27v137M45 167h226" stroke="#65729d" stroke-width="8"/>
+            <rect x="141" y="80" width="26" height="57" rx="13" fill="#a7fc7a"/>
+            <path d="M57 220q60 44 187 0" stroke="#9c89f9" stroke-width="10" fill="none"/>
+        </g>
+    </g>
+    <g fill="none" stroke="#a4f38d" opacity=".35">
+        <circle cx="300" cy="207" r="160" stroke-width="1" stroke-dasharray="4 13"/>
+        <path d="M80 315l55-30M450 70l65 33" stroke-width="2"/>
+    </g>
+</svg>

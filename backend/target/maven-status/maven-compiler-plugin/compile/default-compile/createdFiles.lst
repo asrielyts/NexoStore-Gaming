@@ -1,0 +1,17 @@
+cl\nexostore\api\admin\AdminController.class
+cl\nexostore\api\auth\AuthController$Register.class
+cl\nexostore\api\security\SecurityConfig.class
+cl\nexostore\api\state\StateController.class
+cl\nexostore\api\NexoStoreApplication.class
+cl\nexostore\api\state\StoreSnapshotRepository.class
+cl\nexostore\api\user\StoreUserRepository.class
+cl\nexostore\api\user\StoreUser.class
+cl\nexostore\api\auth\AuthController.class
+cl\nexostore\api\security\JwtFilter.class
+cl\nexostore\api\state\CatalogController.class
+cl\nexostore\api\state\StoreDataService.class
+cl\nexostore\api\config\DataInitializer.class
+cl\nexostore\api\auth\AuthController$Login.class
+cl\nexostore\api\config\OpenApiConfig.class
+cl\nexostore\api\security\JwtService.class
+cl\nexostore\api\state\StoreSnapshot.class

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="420" viewBox="0 0 600 420">
+    <defs>
+        <linearGradient id="glow" x1="0" x2="1">
+            <stop stop-color="#f59b76"/>
+            <stop offset="1" stop-color="#bbc9ff"/>
+        </linearGradient>
+        <radialGradient id="bg">
+            <stop stop-color="#f59b76" stop-opacity=".3"/>
+            <stop offset="1" stop-color="#f59b76" stop-opacity="0"/>
+        </radialGradient>
+        <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%">
+            <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#01020b" flood-opacity=".65"/>
+        </filter>
+    </defs>
+    <circle cx="300" cy="215" r="170" fill="url(#bg)"/>
+    <ellipse cx="300" cy="355" rx="195" ry="23" fill="#050916" opacity=".35"/>
+    <g filter="url(#shadow)">
+        <g transform="translate(80 100)">
+            <path d="M20 90 387 22l110 204-385 95z" fill="#191f32" stroke="#9199af" stroke-width="10"/>
+            <path d="m56 119 313-55 81 139-311 78z" fill="#453b83"/>
+            <path d="M99 193q90-115 180 5t131-48" stroke="#a7fc7a" stroke-width="12" fill="none"/>
+            <path d="M118 231q110-88 160 3" stroke="#f3a9de" stroke-width="9" fill="none"/>
+        </g>
+    </g>
+    <g fill="none" stroke="#f59b76" opacity=".35">
+        <circle cx="300" cy="207" r="160" stroke-width="1" stroke-dasharray="4 13"/>
+        <path d="M80 315l55-30M450 70l65 33" stroke-width="2"/>
+    </g>
+</svg>
